@@ -27,6 +27,8 @@
     }
 }
 
+
+
 .marquee-track {
     animation: marquee 20s linear infinite;
     /* adjust speed here */
@@ -44,4 +46,19 @@
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
+}
+
+@keyframes slowZoom {
+    from {
+        transform: scale(100%);
+    }
+
+    to {
+        transform: scale(125%);
+    }
+}
+
+.slowZoom-wrapper:hover {
+    animation: slowZoom 25s ease-in-out forwards;
+    animation-delay: 300ms;
 }
