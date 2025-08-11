@@ -1,6 +1,7 @@
 import { Github, Linkedin, LinkedinIcon, LocateFixed } from "lucide-react"
 import Icons from "./Icons"
 import { Mail } from "lucide-react"
+import Location from '../../assets/icons/location.svg'
 
 function Card() {
     return (
@@ -8,20 +9,20 @@ function Card() {
             <div className="flex flex-col gap-1">
                 <div className="flex justify-between items-center">
                     <h1 className='text-4xl font-bold'>Paras Badwaik</h1>
-                    <div className="flex items-center">
+                    <div className="flex items-center gap-2">
                         <Icons>
-                            <Mail />
+                            <Mail className="text-white group-hover:text-black transition-colors duration-300" />
                         </Icons>
                         <Icons>
-                            <Github />
+                            <Github className="text-white group-hover:text-black transition-colors duration-300" />
                         </Icons>
                         <Icons>
-                            <LinkedinIcon />
+                            <LinkedinIcon className="text-white group-hover:text-black transition-colors duration-300" />
                         </Icons>
                     </div>
                 </div>
-                <div className="flex justify-start gap-2 text-xl" style={{ color: "#9CA3AF" }}>
-                    <LocateFixed />
+                <div className="flex justify-start items-center text-xl gap-1" style={{ color: "#9CA3AF" }}>
+                    <img src={Location} className="h-6 -m-1 invert-100" />
                     Nagpur, India
                 </div>
                 <div className="text-xl">

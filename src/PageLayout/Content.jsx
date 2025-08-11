@@ -1,4 +1,4 @@
-import Card from "../Sections/Card"
+import Card from "../Sections/components/Card"
 import TechStack from "../Sections/TechStack"
 import Experience from "../Sections/Experience"
 import MyWork from "../Sections/MyWork"

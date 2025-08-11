@@ -1,7 +1,7 @@
 import React from 'react'
 // import reactLogo from '../../assets/languages/react.svg'
 import rightArrow from '../../assets/icons/arrow.svg'
-import ProjectBadge from '../ProjectBadge'
+import ProjectBadge from './ProjectBadge'
 
 import viteLogo from '../../assets/languages/vite.svg'
 import expressLogo from '../../assets/languages/express.svg'
