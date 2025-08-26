@@ -40,7 +40,9 @@ function ProjectCard(props) {
                group-hover:opacity-100 
                group-hover:scale-110 
                transition duration-300 ease-in-out 
-               slowZoom-wrapper"
+               slowZoom-wrapper
+               mask-b-from-75%
+               "
             />
 
 
